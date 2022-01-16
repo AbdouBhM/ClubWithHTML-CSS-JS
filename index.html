@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <title>Club Sportif</title>
+        <link rel="shortcut icon " href="images/ico.png" type="images/png" />
+    </head>
+
+    <body>
+        <h1 class="titre">Abonnez-vous au club Sportif de AbdouBhM ?</h1>
+        <section>
+            <div class="contenant">
+                <div class="carte" id="carte1">
+                    <div class="contenue">
+                        <div class="imgBx" id="imgBx1">
+                            <img src="images/mus1.png" alt="">
+                        </div>
+                        <div class="genre">
+                            <span class="masculation"> Masculation</span>
+                        </div>
+                        <div class="contentBx">
+                            <h4> Some quick exemple text to build on the card title and make up the buik of the card's
+                                content.</h4>
+                        </div>
+                    </div>
+                    <ul class="btndetail">
+                        <li><a href="#"><button class="btn" id="btnM" value="200">200DH </button></a></li>
+                    </ul>
+                </div>
+
+                <div class="carte" id="carte2">
+                    <div class="contenue">
+                        <div class="imgBx" id="imgBx2">
+                            <img id="ima2" src="images/fit2.png" alt="">
+                        </div>
+                        <div class="genre">
+                            <span class="Fetniss"> Fetniss</span>
+                        </div>
+                        <div class="contentBx">
+                            <h4> Some quick exemple text to build on the card title and make up the buik of the card's
+                                content.</h4>
+                        </div>
+                    </div>
+                    <ul class="btndetail">
+                        <li><a href="#"><button class="btn" id="btnF" value="350">350DH</button></a></li>
+                    </ul>
+                </div>
+
+                <div class="carte" id="carte3">
+                    <div class="contenue">
+                        <div class="imgBx" id="imgBx3">
+                            <img id="ima3" src="images/nat2.png" alt="">
+                        </div>
+                        <div class="genre">
+                            <span class="Natation"> Natation</span>
+                        </div>
+                        <div class="contentBx">
+                            <h4> Some quick exemple text to build on the card title and make up the buik of the card's
+                                content.</h4>
+                        </div>
+                    </div>
+                    <ul class="btndetail">
+                        <li><a href="#"><button class="btn" id="btnN" value="400">400DH </button></a></li>
+                    </ul>
+                </div>
+                <div class="carte" id="carte4">
+                    <div class="contenue">
+                        <div class="imgBx" id="imgBx4">
+                            <img src="images/tins3.png" alt="">
+                        </div>
+                        <div class="genre">
+                            <span class="Teniss"> Teniss</span>
+                        </div>
+                        <div class="contentBx">
+                            <h4> Some quick exemple text to build on the card title and make up the buik of the card's
+                                content.</h4>
+                        </div>
+                    </div>
+                    <ul class="btndetail">
+                        <li><a href="#"><button class="btn" id="btnT" value="500">500DH</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="detail">
+
+            <div class="cartebas">
+                <div class="contenue" id="cont1">
+                    <div class="imgBx"> </div>
+                </div>
+            </div>
+            <div class="cartebas">
+                <div class="contenue" id="cont2">
+                    <div class="imgBx"></div>
+                </div>
+            </div>
+            <div class="cartebas">
+                <div class="contenue" id="cont3">
+                    <div class="imgBx"></div>
+                </div>
+            </div>
+            <div class="cartebas">
+                <div class="contenue" id="cont4">
+                    <div class="imgBx"></div>
+                </div>
+            </div>
+        </div>
+        <h2 id="">Le montant d'abonement est :</h2> <label for="res" id="res">0.00DH</label>
+
+
+
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".carte"),
+                {
+                    max: 25,
+                    speed: 400,
+
+                });
+        </script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".cartebas"),
+                {
+                    max: 25,
+                    speed: 400,
+
+                });
+        </script>
+
+    </body>
+
+</html>
